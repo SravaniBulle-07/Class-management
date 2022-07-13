@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  /* padding: 50%; */
+  padding :20px;
+  background-color:orange
+}
+input{
+  padding: 10px;
+border:transparent;
+border-radius: 4px;
+margin-right: 4px;
+width: 77%;
+outline: none;
+}
+button{
+  padding: 10px;
+  background-color:rgb(159, 159, 85);
+  color: white;
+  border: transparent;
+  border-radius:px ;
+  cursor: pointer;
+  outline: none;
+}
+.no-courses
+{
+  color: black;
+  padding: 30px;
+  display: block;
+  font-weight: 500;
+}
+.list
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:blue;
+  padding: 15px;
+  border-radius: 4px;
+  color: white;
+  margin-top: 10px;
+
+
+}
+.btns button:first-of-type{
+  margin-right: 4px;
+  background-color: cornflowerblue;
+}
+.btns button:last-of-type
+{
+background-color: red;
+}
+.edit
+{
+  background-color: rgb(53, 53, 154);
+  margin-top:10px ;
+  padding: 10px;
+  border-radius: 4px;
+}
+.edit input
+{
+  width:81%;
+}html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.App .card {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+label.radio {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+label.radio+.radio {
+  margin-left: 0;
+}
+
+label.radio input {
+  margin-right: 10px;
+}
+#id1
+{
+  color:black;
+  background-color:hotpink;
+  width: auto;
+  height: 20%;
+  margin-bottom: 10px;
+}
